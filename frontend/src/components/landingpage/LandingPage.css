@@ -1,0 +1,53 @@
+.landing-container {
+  background-color: #f2f0e8; /* Approximate background color of Medium */
+  width: 100%;
+  min-height: calc(100vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack items vertically */
+  padding: 20px; /* Add some padding around the content */
+  box-sizing: border-box; /* Include padding in width and height */
+  text-align: center; /* Center text within the hero section */
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem; /* Adjust as needed */
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  font-family: 'sohne', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Approximate font */
+  font-weight: 700;
+  color: #292929; /* Approximate text color */
+}
+
+.hero-section h1:last-child {
+  margin-bottom: 1.5rem; /* Add more space after "stories & ideas" */
+}
+
+.subtitle {
+  font-size: 1.5rem; /* Adjust as needed */
+  color: #757575; /* Approximate subtitle color */
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  font-family: 'sohne', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Approximate font */
+  font-weight: 400;
+}
+
+.start-reading-button {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'sohne', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Approximate font */
+  font-weight: 500;
+  transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+.start-reading-button:hover {
+  background-color: #222; /* Slightly darker on hover */
+}
