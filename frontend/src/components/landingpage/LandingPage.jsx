@@ -8,7 +8,7 @@ export const LandingPage = () => {
     const[isModalOpen , setIsModalOpen] = useState(false);
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <div className="landing-container">
         <div className="hero-section">
           <h1>Your</h1>
